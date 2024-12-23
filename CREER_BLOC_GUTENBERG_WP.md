@@ -68,7 +68,7 @@ https://developer.wordpress.org/block-editor/getting-started/fundamentals/file-s
 On peut enlever la ligne "icon" si on veut par exemple mettre un svg à la place.
 Il faudra le faire dans le fichier index.js (cf ci-dessous)
 - **supports** : 
-On peut rajouter des options pour que l'utilisateur customise le style du bloc.
+On peut rajouter des options pour que l'utilisateur customise le style du bloc. Des sortes de propriétés CSS.
 ```
 "supports": {
     "color": {
