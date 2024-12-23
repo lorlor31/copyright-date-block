@@ -281,6 +281,10 @@ Le toggle se met bien à jour.
 - On met à jour la fonction edit.js pour utiliser la nouvelle variable displayDate.
 
 8. Mettre à jour le rendu de la page dans render.php
+ Three variables are exposed in render.php, which you can use to customize the block’s output:
+$attributes (array): The block attributes.
+$content (string): The block default content.
+$block (WP_Block): The block instance.
 On va faire ce qu'on a fait dans edit.js, déclarer la variable et l'utiliser
 ```
 if ( ! empty( $attributes['startingYear'] ) && ! empty( $attributes['showStartingYear'] ) ) {
